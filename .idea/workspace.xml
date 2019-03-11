@@ -7,21 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f0aa193-292c-4adb-9984-ff2f22d182a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/controller/OrderItermController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/pojo/CartCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/pojo/OrderItermCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/service/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/service/OrderItermServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tl/utils/TimeStampUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/account_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cart_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/pageShow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java8_Template/src/Utils/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Template/src/Utils/UUIDUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java8_Template/src/Utils/UploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Template/src/Utils/UploadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java8_Template/src/chap02/FilteringApples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Template/src/chap02/FilteringApples.java" afterDir="false" />
@@ -37,61 +22,6 @@
       <change beforePath="$PROJECT_DIR$/../Java8_Template/src/chap07/ForkJoinDemo/ForkJoinSumCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Template/src/chap07/ForkJoinDemo/ForkJoinSumCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java8_Template/src/chap07/ForkJoinDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Template/src/chap07/ForkJoinDemo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java8_Template/src/chap07/ParalleDemo/ParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java8_Template/src/chap07/ParalleDemo/ParallelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/controller/FormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/dao/OrderItermDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/dao/OrderItermDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/pojo/ProductCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/pojo/ProductCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/service/OrderItermService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/service/OrderItermService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderItermMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderItermMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/public.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/controller/FormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/controller/FormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/dao/CartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/dao/CartDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/dao/OrderItermDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/dao/OrderItermDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/pojo/ProductCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/pojo/ProductCustom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/service/OrderItermService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/service/OrderItermService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OrderItermMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/OrderItermMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/controller/FormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/controller/FormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/dao/CartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/dao/CartDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/dao/OrderItermDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/dao/OrderItermDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/pojo/ProductCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/pojo/ProductCustom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/service/OrderItermService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/service/OrderItermService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/com/tl/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/OrderItermMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/OrderItermMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/jsp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/jsp/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/WEB-INF/jsp/product_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/WEB-INF/jsp/product_form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/js/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contentstore/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/contentstore/js/public.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../customer-manage-master/.idea/vcs.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,7 +49,7 @@
     <session id="2093406162">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -136,12 +66,13 @@
           <entry key="jpg" value="3" />
           <entry key="js" value="70" />
           <entry key="jsp" value="107" />
+          <entry key="md" value="1" />
           <entry key="pom" value="1" />
           <entry key="properties" value="12" />
           <entry key="rnc" value="1" />
           <entry key="tld" value="1" />
           <entry key="ts" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="131" />
         </counts>
       </usages-collector>
@@ -154,7 +85,8 @@
           <entry key="JAVA" value="337" />
           <entry key="JSP" value="107" />
           <entry key="JavaScript" value="70" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="12" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="2" />
@@ -169,7 +101,9 @@
           <entry key="java" value="22731" />
           <entry key="js" value="2311" />
           <entry key="jsp" value="13894" />
+          <entry key="md" value="91" />
           <entry key="properties" value="129" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="10418" />
         </counts>
       </usages-collector>
@@ -180,7 +114,8 @@
           <entry key="JAVA" value="22731" />
           <entry key="JSP" value="13668" />
           <entry key="JavaScript" value="2311" />
-          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="Markdown" value="91" />
+          <entry key="PLAIN_TEXT" value="86" />
           <entry key="Properties" value="129" />
           <entry key="SQL" value="55" />
           <entry key="Vue.js" value="224" />
@@ -193,7 +128,7 @@
     <favorites_list name="contentstore" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5743073">
+    <splitter split-orientation="horizontal" split-proportion="0.66140354">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
@@ -216,15 +151,6 @@
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1056">
-                  <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -268,11 +194,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/controller/FormController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="394">
                   <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/sql.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="364">
+                  <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -367,12 +302,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/dao/OrdersDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/dao/ProductCustom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/utils/Constant.java" />
@@ -423,6 +357,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/controller/FormController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -485,7 +420,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1918" />
+    <option name="x" value="-1889" />
     <option name="y" value="66" />
     <option name="width" value="1822" />
     <option name="height" value="1014" />
@@ -691,7 +626,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Maven.contentstore [install]">
     <configuration name="contentstore [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -814,7 +749,7 @@
       <workItem from="1550744199661" duration="27411000" />
       <workItem from="1550849609937" duration="70729000" />
       <workItem from="1551254081442" duration="69505000" />
-      <workItem from="1551621501204" duration="122927000" />
+      <workItem from="1551621501204" duration="123087000" />
     </task>
     <servers />
   </component>
@@ -833,17 +768,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290572000" />
+    <option name="totallyTimeSpent" value="290732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1636" y="66" width="1540" height="1014" extended-state="0" />
+    <frame x="-1918" y="66" width="1822" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.50086653" side_tool="true" weight="0.2536855" />
       <window_info id="Web" order="2" sideWeight="0.16415869" side_tool="true" weight="0.2098501" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.8358413" visible="true" weight="0.23387097" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.8358413" visible="true" weight="0.2079096" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -855,7 +790,7 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32969433" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.3286026" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.29014397" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.29014397" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.28239202" />
@@ -926,13 +861,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/pojo/CartCustom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1338,17 +1266,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/controller/FormController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>

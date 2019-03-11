@@ -67,7 +67,7 @@
                     <a href="${ctx}/product/detail?pid=${productCustom.product.pid}" class="link">
                         <div class="img"><img src="${productCustom.product.pimage}"
                                               alt="${productCustom.product.ptitle}"></div>
-                        <h3>${product.ptitle}</h3>
+                        <h3>${productCustom.product.ptitle}</h3>
                         <div class="price">
                             <span class="v-unit">¥</span><span class="v-value">${productCustom.product.price}</span>
                             <span class="v-unit">月销量:<span>${productCustom.countBrought}</span></span>
@@ -103,7 +103,7 @@
                     <a href="${ctx}/product/detail?pid=${productCustom.product.pid}" class="link">
                         <div class="img"><img src="${productCustom.product.pimage}"
                                               alt="${productCustom.product.ptitle}"></div>
-                        <h3>${product.ptitle}</h3>
+                        <h3>${productCustom.product.ptitle}</h3>
                         <div class="price">
                             <span class="v-unit">¥</span><span class="v-value">${productCustom.product.price}</span>
                             <span class="v-unit">月销量:<span>${productCustom.countBrought}</span></span>
