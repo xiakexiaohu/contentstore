@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tl.dao.OrderItermDao">
+    <resultMap id="BaseResultMap" type="com.tl.pojo.OrderIterm">
+        <constructor>
+            <idArg column="oid" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="count" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+            <arg column="uid" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="pid" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="price" jdbcType="DOUBLE" javaType="java.lang.Double"/>
+            <arg column="ctime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+            <arg column="mtime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        </constructor>
+    </resultMap>
+
+    <!--批量插入-->
+    <insert id="batchSave" parameterType="java.util.List">
+        insert into order_iterm (oid, count, uid,
+        pid, price)
+        values
+        <foreach collection="list" item="item" index="index"
+                 separator=",">
+            (#{item.oid,jdbcType=VARCHAR},#{item.count,jdbcType=INTEGER},
+            #{item.uid,jdbcType=VARCHAR},#{item.pid,jdbcType=VARCHAR},
+            #{item.price,jdbcType=DOUBLE}
+            )
+        </foreach>
+    </insert>
+
+    <!--查询用户上次购买该商品的价格，时间倒序-->
+    <select id="getLastProductByUidPid" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select * from order_iterm
+        where uid = #{0,jdbcType=VARCHAR} and pid = #{1,jdbcType=VARCHAR}
+        order by ctime desc
+        limit 1
+    </select>
+
+    <!--查询指定用户购买商品记录-->
+    <select id="getProductByUserId" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select * from order_iterm where uid = #{uid,jdbcType=VARCHAR}
+    </select>
+
+    <select id="getProductHasBrought" resultMap="BaseResultMap">
+        select * from order_iterm
+    </select>
+
+    <sql id="Base_Column_List">
+    oid, count, uid, pid, price, ctime, mtime
+  </sql>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+        <include refid="Base_Column_List"/>
+        from order_iterm
+        where oid = #{oid,jdbcType=VARCHAR}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from order_iterm
+    where oid = #{oid,jdbcType=VARCHAR}
+  </delete>
+    <insert id="insert" parameterType="com.tl.pojo.OrderIterm">
+    insert into order_iterm (oid, count, uid,
+      pid, price, ctime,
+      mtime)
+    values (#{oid,jdbcType=VARCHAR}, #{count,jdbcType=INTEGER}, #{uid,jdbcType=VARCHAR},
+      #{pid,jdbcType=VARCHAR}, #{price,jdbcType=DOUBLE}, #{ctime,jdbcType=TIMESTAMP},
+      #{mtime,jdbcType=TIMESTAMP})
+  </insert>
+    <insert id="insertSelective" parameterType="com.tl.pojo.OrderIterm">
+        insert into order_iterm
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="oid != null">
+                oid,
+            </if>
+            <if test="count != null">
+                count,
+            </if>
+            <if test="uid != null">
+                uid,
+            </if>
+            <if test="pid != null">
+                pid,
+            </if>
+            <if test="price != null">
+                price,
+            </if>
+            <if test="ctime != null">
+                ctime,
+            </if>
+            <if test="mtime != null">
+                mtime,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="oid != null">
+                #{oid,jdbcType=VARCHAR},
+            </if>
+            <if test="count != null">
+                #{count,jdbcType=INTEGER},
+            </if>
+            <if test="uid != null">
+                #{uid,jdbcType=VARCHAR},
+            </if>
+            <if test="pid != null">
+                #{pid,jdbcType=VARCHAR},
+            </if>
+            <if test="price != null">
+                #{price,jdbcType=DOUBLE},
+            </if>
+            <if test="ctime != null">
+                #{ctime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="mtime != null">
+                #{mtime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.tl.pojo.OrderIterm">
+        update order_iterm
+        <set>
+            <if test="count != null">
+                count = #{count,jdbcType=INTEGER},
+            </if>
+            <if test="uid != null">
+                uid = #{uid,jdbcType=VARCHAR},
+            </if>
+            <if test="pid != null">
+                pid = #{pid,jdbcType=VARCHAR},
+            </if>
+            <if test="price != null">
+                price = #{price,jdbcType=DOUBLE},
+            </if>
+            <if test="ctime != null">
+                ctime = #{ctime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="mtime != null">
+                mtime = #{mtime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where oid = #{oid,jdbcType=VARCHAR}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.tl.pojo.OrderIterm">
+    update order_iterm
+    set count = #{count,jdbcType=INTEGER},
+      uid = #{uid,jdbcType=VARCHAR},
+      pid = #{pid,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DOUBLE},
+      ctime = #{ctime,jdbcType=TIMESTAMP},
+      mtime = #{mtime,jdbcType=TIMESTAMP}
+    where oid = #{oid,jdbcType=VARCHAR}
+  </update>
+</mapper>
